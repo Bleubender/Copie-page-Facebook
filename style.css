@@ -1,0 +1,225 @@
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+}
+
+header{    
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(216, 215, 215);
+    display: flex;
+    justify-content: space-between;
+}
+#left_header{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding-left: 15px;
+}
+#left_header a i{
+    color: rgb(0, 129, 250);
+}
+#left_header i{
+    color: rgb(148, 148, 148);
+    margin-right: 10px;
+}
+
+#search_bar{
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#site-search{
+    border: none;
+    background-color: rgb(236, 236, 236);
+    width: 180px;
+}
+#center_header{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-around;
+}
+#center_header i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 129, 250);
+    width: 120px;
+    height: 60px;
+}
+#center_header a{
+    text-decoration: none;
+}
+#home{
+    color: rgb(0, 129, 250);
+    border-bottom: 5px solid rgb(0, 129, 250);
+}
+#right_header{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: right;
+}
+#right_header img{
+    border-radius: 100%;
+    height: 40px;
+}
+#right_header i{
+    color: black;
+} 
+#right_header a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    margin-top: 80px;
+}
+#left_aside{
+    height: 1000px;
+    width: 25%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+}
+#left_aside a{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.1em;
+}
+#left_aside img{
+   border-radius: 100%;
+   height: 40px;
+   margin: 10px;
+}
+#left_aside i{
+
+    margin: 20px;
+    color: rgb(0, 129, 250);
+ }
+#left_aside a:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+#center_aside{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 40%;
+    background-color: rgb(236, 236, 236);
+}
+article{
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(216, 215, 215);
+    margin-bottom: 10px;
+}
+
+.header_article{
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_article_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.prenom_jours{
+    margin-left: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.prenom_jours h3{
+    margin: 0;
+}
+.prenom_jours p{
+    margin: 0;
+}
+.header_article i{
+    text-align: right;
+}
+.description{
+    padding-left: 20px; 
+    padding-right: 20px;   
+}
+#right_aside{  
+    height: 1000px;
+    width: 25%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+}
+#right_aside a{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.1em;
+}
+#right_aside img{
+   border-radius: 100%;
+   height: 40px;
+   margin: 10px;
+}
+#right_aside a:hover{
+    background-color: rgb(221, 221, 221);
+}
+#right_aside h3{
+    padding-left: 15px;
+    color: gray;
+}
+#right_aside p{
+    padding-left: 15px;
+    font-size: 1.1em;
+}
+#anniversaire{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+}
